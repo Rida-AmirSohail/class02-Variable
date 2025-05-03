@@ -69,3 +69,28 @@ console.log(myName);
 
 const myAge:number=24;
 console.log(myAge);//const value cannot change
+
+//string 
+let message: string = "Hello, TypeScript!";
+console.log(message)
+//number
+let age:number=5;
+console.log(age)
+//boolean
+let isLoggedIn: boolean = true;
+console.log(isLoggedIn)
+//any
+let data: any = "Hello";
+data = 42
+console.log(data)
+//array
+let numbers: number[] = [1, 2, 3,4,5];
+console.log(numbers)
+let names: string[] = ["Alice", "Bob","Harry","Michel"];
+console.log(names)
+//object
+let user: { name: string; age: number } = {
+    name: "Bob",
+    age: 25,
+}
+console.log(user)  
